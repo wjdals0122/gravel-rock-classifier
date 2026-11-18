@@ -1,8 +1,0 @@
-torch>=2.6
-timm>=1,<2
-albumentations>=2,<3
-opencv-python-headless
-pandas
-numpy
-scikit-learn
-tqdm
