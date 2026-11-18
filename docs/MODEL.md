@@ -87,12 +87,4 @@ images/sample_b.jpg,3
 | Swin V2 | 0.72668 |
 | ConvNeXt-Base | 0.83635 |
 
-- 위 F1과 현재 평가 코드의 macro F1을 직접 비교하려면 동일한 집계 방식과 평가 데이터 사용 여부 확인 필요
 - [모델 비교표(PDF 23쪽)](presentation.pdf#page=23)
-
-## 추론 및 평가 코드 확인 범위
-
-- macOS CPU 환경에서 기존 체크포인트 5개의 로드 및 순전파 확인
-- 임시 JPG로 단일 이미지 추론 JSON과 평가 지표 및 혼동행렬 형식 확인
-- 확인 환경은 Python 3.14.8, PyTorch 2.15.0, timm 1.0.31, Albumentations 2.0.8
-- 원본 데이터로 Ubuntu 재학습 및 성능 재평가 미실행
