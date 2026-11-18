@@ -61,6 +61,10 @@
 
 [실행 스크립트 `scripts/rock.sh`](scripts/rock.sh)
 
+![rock.sh 도움말, 5폴드 학습, 단일 이미지 분류, 폴드별 평가 명령을 보여주는 터미널 데모](docs/assets/rock-shell-demo.gif)
+
+Ubuntu 24.04 실행 흐름을 재현한 데모 화면
+
 ### 환경 설정
 
 저장소 루트에서 가상환경을 만들고 의존성 설치
