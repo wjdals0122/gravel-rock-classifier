@@ -86,7 +86,7 @@ python3 -m venv .venv
 ```
 
 - 학습 로그는 `runs/train-*/train.log`에 저장
-- 검증 정확도가 개선될 때 해당 폴드의 체크포인트 저장(\`best_model_fold1.pth\`부터 \`best_model_fold5.pth\`까지)
+- 검증 정확도가 개선될 때 해당 폴드의 체크포인트 저장(`best_model_fold1.pth`부터 `best_model_fold5.pth`까지)
 - 제출용 추론 후 `submit_convnext.csv` 생성
 - 체크포인트와 제출 CSV는 데이터 디렉터리에 저장하며 기존 파일은 덮어쓸 수 있음
 
